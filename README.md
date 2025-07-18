@@ -23,7 +23,7 @@ This project demonstrates CRUD operations, authentication, image uploads, and mo
 - **EJS** (for server-side views)
 
 ### 🖥️ Frontend (React App inside `/client`)
-- **React**
+- **JavaScript**
 - **Axios**
 - **Bootstrap** (for UI)
 
@@ -40,6 +40,17 @@ This project demonstrates CRUD operations, authentication, image uploads, and mo
 - 💬 Flash messages and proper error handling
 
 ---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_KEY=your_api_key
+CLOUDINARY_SECRET=your_api_secret
+DB_URL=your_mongo_connection_uri
+SECRET=your_session_secret
 
 
 
